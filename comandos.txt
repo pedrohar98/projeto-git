@@ -1,0 +1,47 @@
+arquivo .gitignore: digitar o nome dos arquivos.
+- site - gitignore.io: cria um gitignore de acordo com a linguagem. 
+
+git init - inicia um repositório.
+git add - adiciona todos os arquivos da pasta.
+git commit -m "Projeto inicial" - Nomeia o primeiro commit.
+git config --global user.email "email" - Configura um email global.
+git config --global user.name "nome" - Configura um nome global
+git branch -M main - ?
+git remote add origin git@github.com:pedrohar98/projeto-git.git - conecta com o github.
+git push -u origin main: envia os arquivos para o Github.
+git remote add apelido url: Conecta com o a URL.
+git remote: lista somente os respositórios.
+git remote -v: lista de todos os repositórios remotos + url.
+git remote remove origin:o repositório remoto chamado "origin" será desvinculado do seu projeto local.
+git remote set-url apelido nova_url: git remote set-url origin https://github.com/seu-usuario/seu-repositorio.git Isso atualizará a URL do repositório remoto "origin" para a nova URL especificada.
+git remote rename apelido novo_apelido: git remote rename origin novo-origin, Isso renomeará o repositório remoto de "origin" para "novo-origin".
+git clone url: ele clona o projeto no github.
+- git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git status: lista quais arquivos foram modificados.
+git add . : adiciona os arquivos para em seguida comitar.
+git commit -m "mensagem de alteração": registra mudança no código.
+git log: lista todos os commits realizados.
+$ git commit -m "Adicionar nova funcionalidade.
+>
+>
+Co-authored-by: NOME <nome@email.com>
+Co-authored-by: OUTRO-NOME <outro@email.com>": quando trabalha duas pessoas ou mais no mesmo código, que n seja o autor.
+git pull origin main: baixa os commits do repositório remoto para o local.
+git revert hash: ele remove o commit e gerar um novo
+git reset --hard hashAnteriorAoDesejdo: exclui o commit desejado, apaga as alterações no código e volta para o código anterior.**** Recomendando somente para o repositório local
+git commit --amend -m "titulo": altera o título do último commit.
+git log --oneline: mostra todos os commits resumidos
+git log -p: mostra todas as alterações de cada commit.
+git log --graph: mostra a sequencia.
+git show: mostra as alterações do HEAD (último commit).
+git show hash: mostra todas as alterações de um determinado commit.
+git diff: mostra as alterações entre o editado e o último commit. Somente antes de adicionar.
+git diff hashAntigo..hashNovo: mostra as alterações entre os dois commits selecionados. Também funciona colocando só o primeiro hashAntigo e por padrão ele compara com o HEAD.
+git branch: lista as branchs.
+git branch -m branchAntiga branchNova: altera o nome da branch.
+git branch -d master: deleta a branch selecionada, desde que você não esteja nela.
+git checkout nomeBranch: muda de branch. (MODO ANTIGO)
+git switch nomeBranch: muda de branch (MODO NOVO)
+git switch -c nomeBranch: cria uma nova branch.
+
+
